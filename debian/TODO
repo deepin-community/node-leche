@@ -1,0 +1,5 @@
+  * Lint-check code when more recent ESLint is in Debian.
+  * Check testsuite when needed node module is in Debian:
+    karma
+  * Generate development documentation.
+  * Build browser library.

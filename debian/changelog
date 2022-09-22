@@ -1,0 +1,25 @@
+node-leche (2.3.0~dfsg-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper dependency to >= 10, since that's what is used in
+    debian/compat.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 01:05:22 +0100
+
+node-leche (2.3.0~dfsg-2) unstable; urgency=medium
+
+  * fix clean generated docs
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 30 Nov 2019 11:01:41 +0100
+
+node-leche (2.3.0~dfsg-1) experimental; urgency=low
+
+  * Initial release.
+    Closes: Bug#942577.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 18 Oct 2019 14:41:00 +0200

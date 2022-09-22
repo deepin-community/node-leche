@@ -1,0 +1,35 @@
+Source: node-leche
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders:
+ Jonas Smedegaard <dr@jones.dk>,
+Build-Depends:
+ debhelper-compat (= 12),
+ pandoc <!nodoc>,
+Standards-Version: 4.5.0
+Homepage: https://github.com/box/leche
+Vcs-Browser: https://salsa.debian.org/js-team/node-leche
+Vcs-Git: https://salsa.debian.org/js-team/node-leche.git
+Rules-Requires-Root: no
+
+Package: node-leche
+Architecture: all
+Depends:
+ node-mocha,
+ nodejs,
+ ${misc:Depends},
+Enhances:
+ mocha,
+ node-sinon,
+Description: JavaScript testing utility for Mocha and Sinon
+ Leche is a JavaScript testing utility
+ designed to work with Mocha and Sinon.
+ This is intended for use both by Node.js and in browsers,
+ so any changes must work in both locations.
+ .
+ Sinon is a set of standalone test spies, stubs and mocks
+ for JavaScript
+ working with any unit testing framework.
+ .
+ Node.js is an event-based server-side JavaScript engine.
